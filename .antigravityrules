@@ -9,3 +9,7 @@
   - OS: macOS
   - Terminal: Default Terminal
   - Deployment Stages: [Local, Testing, Production]
+
+### Reference Architecture (brunosimon/folio-2025)
+- **Технологический стек:** Vite, Three.js, GSAP, `@dimforge/rapier3d`, Stylus.
+- **Подход:** WebGL-first дизайн, фокус на 3D-взаимодействии, физике и сложных анимациях вместо плоского DOM-дерева. DOM используется минимально для оверлеев.
