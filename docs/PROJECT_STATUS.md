@@ -6,16 +6,16 @@
 
 **Что уже сделано (100%):**
 - [x] Создан Git репозиторий, привязан к GitHub.
-- [x] Настроен SSH доступ к VPS серверу (`64.188.56.128`) по ключу, создан alias `myserver`.
-- [x] Настроен MCP сервер для Git и GitHub (через Personal Access Token).
-- [x] Зафиксированы строгие правила проекта в `.antigravityrules` (Agent-First, Manager Mode).
-- [x] Выбрана архитектура: WebGL-first 3D сайт-визитка в стиле `folio-2025` (Three.js, GSAP, Stylus, Rapier3D).
-- [x] Настроен процесс тестирования (через Chromium subagent, без затрагивания локального Brave пользователя).
-
+- [x] Настроен SSH доступ к VPS серверу (`64.188.56.128`).
+- [x] Настроен процесс тестирования (через Chromium subagent).
+- [x] Инициализация Vite проекта (`react-ts` template).
+- [x] Установка `three`, `@react-three/fiber`, `@react-three/drei`, `gsap`, `@react-three/rapier`, `zod`.
+- [x] Создание первой базовой сцены React Three Fiber для проверки работоспособности WebGL канваса.
+- [x] Milestone 1: Создан слой данных Zod (`src/data/schema.ts` и `config.ts`), написаны Unit Tests.
+- [x] **Reference:** Репозиторий `brunosimon/folio-2025` скачан и распакован в изолированную папку `reference_folio` для заимствования кода и 3D-ассетов.
 **Что находится в работе прямо сейчас (Следующий шаг):**
-- [ ] Инициализация Vite проекта (`vanilla` template).
-- [ ] Установка `three`, `gsap`, `@dimforge/rapier3d`.
-- [ ] Создание первой базовой сцены Three.js для проверки работоспособности WebGL канваса.
+- [ ] Ожидание верификации Milestone 1 пользователем (проверка `npm run test` и `npm run dev`).
+- [ ] Старт Milestone 2 (Динамическая подстановка текста в R3F и обновление физических коллайдеров).
 
 ## Референсы и Документация
 - Архитектура и правила: `docs/01_WORKFLOW_AND_RULES.md`
